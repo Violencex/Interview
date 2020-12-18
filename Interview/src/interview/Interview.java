@@ -20,7 +20,7 @@ public class Interview {
         int task = -1;
         while (task != 0) 
         {
-            System.out.println("Podaj nr zadania 1-5 (0 - zamyka program): ");
+            System.out.println("Podaj nr zadania 1-3 (0 - zamyka program): ");
             Scanner sc = new Scanner(System.in);
             try {
                 task = sc.nextInt();
@@ -47,18 +47,6 @@ public class Interview {
                     task = -1;
                     break;
                 }
-//                case 4:{
-//                System.out.println("TASK 4");
-//                    Task4.run();
-//                task = -1;
-//                break;
-//                }
-//                case 5:{
-//                System.out.println("TASK 5");
-//                    Task5.run();
-//                task = -1;
-//                break;
-//                }
             }
             System.out.println("");
         }
